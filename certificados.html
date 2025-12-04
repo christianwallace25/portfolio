@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Certificados</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0d0d0d, #1a1a1a);
+            color: #eaeaea;
+        }
+
+        h1 {
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .card {
+            background: #1c1c1c;
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
+        }
+
+        .card img {
+            border-bottom: 1px solid #2a2a2a;
+        }
+
+        .card-title {
+            color: #fff;
+            font-weight: 600;
+        }
+
+        .btn-custom {
+            border-radius: 50px;
+            padding: 10px 26px;
+            font-size: 1rem;
+            border: 2px solid #fff;
+            color: white;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            background: white;
+            color: #000;
+            box-shadow: 0 0 12px rgba(255, 255, 255, 0.4);
+        }
+
+        .subtitle {
+            color: #a8a8a8;
+            max-width: 700px;
+            margin: 0 auto 40px;
+        }
+    </style>
+</head>
+
+<body id="topo">
+
+    <div class="container py-5">
+
+        <h1 class="text-center mb-3">Meus certificados</h1>
+        <p class="text-center subtitle">
+            Aqui estão todos os meus certificados organizados em uma grade responsiva.
+        </p>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 1">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Oficina/Workshop - O Sertão como Palavra e Travessia</h5>
+                        <p class="text-secondary">
+                            Oficina de Leitura e Criação sobre Guimarães Rosa, realizada em 31/10/2025 durante a III Semana Integrada do Conhecimento do Campus Janaúba.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado1.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 2">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Participação no Evento</h5>
+                        <p class="text-secondary">
+                            II Semana Integrada do Conhecimento do Campus Janaúba, realizada entre 27/11/2024 e 30/11/2024.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado2.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 3">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Apresentação Cultural</h5>
+                        <p class="text-secondary">
+                            Momento Cultural: Talentos em cena realizada em 01/11/2025, durante o III Semana Integrada do Conhecimento do Campus Janaúba em 2025.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado3.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 4">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Oficina/Workshop - Visualização de Dados Geoespaciais</h5>
+                        <p class="text-secondary">
+                            Oficina sobre criação de mapas interativos com Python, realizada em 30/11/2024 durante a II Semana Integrada do Conhecimento do Campus Janaúba, com carga horária de 2 horas.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado4.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 5">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Apresentação de Trabalho - Água em Movimento</h5>
+                        <p class="text-secondary">
+                            Apresentação na sala temática "Água em movimento e manejo da água", realizada em 30/10/2025 durante a III Semana Integrada do Conhecimento do Campus Janaúba, com carga horária de 3 horas.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado5.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 6">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Apresentação Cultural - Gurutuba</h5>
+                        <p class="text-secondary">
+                            Apresentação cultural "Gurutuba: O Canto Ancestral da Terra e do Rio", realizada em 27/11/2024 durante a II Semana Integrada do Conhecimento do Campus Janaúba, com carga horária de 30 minutos.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado6.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c2.png" class="card-img-top" alt="Certificado 7">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Minicurso - Introdução à Teoria dos Grafos</h5>
+                        <p class="text-secondary">
+                            Minicurso sobre conceitos e aplicações de grafos, realizado em 22/11/2025 durante a 2ª fase da Olimpíada de Matemática das Instituições Federais (OMIF), totalizando 3 horas.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado7.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 8">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Oficina/Workshop - Libras</h5>
+                        <p class="text-secondary">
+                            Oficina de Libras realizada em 31/10/2025 durante a III Semana Integrada do Conhecimento do Campus Janaúba, com carga horária de 2 horas.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado8.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 9">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Palestra – Biomas brasileiros: desafios para conservação</h5>
+                        <p class="text-secondary">
+                            Participação na palestra realizada em 27/11/2024 durante a II Semana Integrada do Conhecimento do Campus Janaúba, totalizando 1 hora.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado9.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 10">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Palestra – A cultura oceânica sob a perspectiva da evolução da vida na Terra</h5>
+                        <p class="text-secondary">
+                            Participação na palestra realizada em 29/10/2025 durante a III Semana Integrada do Conhecimento do Campus Janaúba, com carga horária total de 1 hora.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado10.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 11">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Evento – III Semana Integrada do Conhecimento</h5>
+                        <p class="text-secondary">
+                            Participação no evento realizado entre 29/10/2025 e 01/11/2025 no Campus Janaúba, totalizando 21 horas.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado11.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 12">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Apresentação Cultural – Projeto Bamberê & Bangulê</h5>
+                        <p class="text-secondary">
+                            Apresentação cultural realizada em 01/11/2025 durante a III Semana Integrada do Conhecimento do Campus Janaúba, com carga horária total de 1 hora.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado12.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 13">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Feira – Feira do Conhecimento</h5>
+                        <p class="text-secondary">
+                            Participação na Feira do Conhecimento realizada em 29/11/2024 durante a II Semana Integrada do Conhecimento do Campus Janaúba, totalizando 3 horas.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado13.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c2.png" class="card-img-top" alt="Certificado 14">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">2ª fase da Olimpíada de Matemática das Instituições Federais (OMIF)</h5>
+                        <p class="text-secondary">
+                            Participação na 2ª fase da OMIF, realizada no IFPR – Campus Irati entre 21 e 23 de novembro de 2025.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado14.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 15">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Mostra – Cerimônia de Abertura</h5>
+                        <p class="text-secondary">
+                            Participação na Cerimônia de Abertura realizada em 27/11/2024 durante a II Semana Integrada do Conhecimento do Campus Janaúba, com carga horária de 1h30.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado15.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 16">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Palestra – Biomas brasileiros: desafios para conservação</h5>
+                        <p class="text-secondary">
+                            Participação na palestra realizada em 27/11/2024 durante a II Semana Integrada do Conhecimento do Campus Janaúba, com carga horária total de 1 hora.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado16.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c2.png" class="card-img-top" alt="Certificado 17">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Palestra – As máquinas sabem ler, e dizem que são inteligentes!</h5>
+                        <p class="text-secondary">
+                            Participação na palestra realizada em 22/11/2025 durante a 2ª fase da OMIF, totalizando 1,5 hora.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado17.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 18">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Apresentação de Trabalho – Biomas do Brasil</h5>
+                        <p class="text-secondary">
+                            Apresentação do trabalho “Biomas do Brasil: diversidade, saberes e tecnologias sociais” realizada em 28/11/2024 durante a II Semana Integrada do Conhecimento do Campus Janaúba, com carga horária total de 3 horas.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado18.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/c1.png" class="card-img-top" alt="Certificado 19">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Apresentação Cultural – Peça Teatral e Documentário “Veias do Sertão”</h5>
+                        <p class="text-secondary">
+                            Participação na apresentação cultural realizada em 29/10/2025 durante a III Semana Integrada do Conhecimento do Campus Janaúba, com carga horária total de 0,5 hora.
+                        </p>
+                        <div class="mt-auto text-center">
+                            <a href="certificados/certificado19.pdf" target="_blank" class="btn btn-custom mt-2">
+                                Ver certificado
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+
+        </div>
+
+    </div>
+    
+    <div class="text-center my-5">
+        <a href="#topo" class="btn btn-custom">Voltar ao início</a>
+    </div>    
+</body>
+</html>
